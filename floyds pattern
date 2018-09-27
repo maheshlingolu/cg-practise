@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+int n;
+printf("number of rows");
+scanf("%d",&n);
+int odd=(n+(n-1))-2;
+for(int i=1;i<=n;i++)
+{
+    int value=i;
+    for(int j=1;j<=i;j++)
+    {
+        if(j==1)
+        printf("%d\t",i);
+        else{
+            if(j%2==0)
+            {
+                value=value+odd;
+                printf("%d\t",value);
+            }
+            else{
+                value=value+(i-j+1)*2;
+            printf("%d\t",value);
+                
+            }
+            
+        }
+    }
+
+    if(i!=1)
+    odd=odd-2;
+    printf("\n");
+}
+}
