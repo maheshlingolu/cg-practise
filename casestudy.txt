@@ -1,0 +1,112 @@
+facebook
+
+1.user details
+name age emailid mobileno gender dob userid password
+ 
+2.friendlist
+friendid friendversery name 
+
+3.pages liked
+pageid pagename cateogry 
+
+4.post details
+timestamp typeofpost linkofpost 
+
+
+5.pagedetails
+pageid pagename cateogry createddate noOfFollowers adminid 
+
+6.groups
+groupid groupname createddate 
+
+
+
+OLA
+
+1.cabs
+ cabmodel licenceplateno manufactureyear ownerid  carid
+2.driver
+id firstname lastname dob drivinglicenseno expirydate contact 
+3.customer details
+name contact custid 
+4.ridedetails
+id ridestarttime rideendtime source destination paymenttype noofpassengers fare ridestatus
+
+
+twitter
+1.userdetails
+name age emailid mobileno gender dob userid password 
+2.followers
+followerid date 
+3.tweets
+timestamp userid attachmenttype 
+
+
+flight reservation
+1.flightdetails
+id name company capacity type  
+2.customer details
+name contact custid 
+3.tripdetails
+date bookingdate sorce destination noofpassengers flightid fare 
+4.passengerdetails
+boarbing landing id laugagedetails
+
+
+bigbasket
+1.product
+id vendor name price stockavailble category 
+2.vendor
+id name category rating 
+3.customer
+name contact custid
+4.purchasedetails
+id custid billamount 
+
+
+bookmyshow
+1.customer
+name contact custid
+2.theatre details
+id loaction screensavailble capacity contact ownername 
+3.bookingdetails
+id theatreid custid timestamp moviename noofpersons screenno
+4.moviedetails
+language moviename theatre screen releasedate 
+
+msconsultaancy
+1.studentdetails
+name contact college qualification contact yearofpassing 
+2.coursedetails
+courseid coursename collegeoffering city country fee availbleseats
+3.applicationdetails
+courseapplied courseid feepaid timestamp 
+
+redbus
+1.customerdetails
+id fname lname mobile aadhharno dob mobileno
+2.tripdetails
+date bookingdate sorce destination noofpassengers flightid fare 
+3.passengerdetails
+boarbing landing id noofpassengers
+4.transaction
+mode timestamp amount
+
+
+housing
+1.customerdetails
+id fname lname mobile aadhharno dob mobileno
+2.propertydetails
+landsize location type cost 
+3.seller details
+id fname lname mobile aadhharno dob mobileno
+
+wallet
+1.customerdetails
+id fname lname mobile aadhharno dob mobileno
+2.accountdetails
+balance rechargedate source
+3.transactiondetails
+amount timestamp reciever 
+
+
